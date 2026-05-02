@@ -24,4 +24,4 @@ A simple, real-time web tool to count words, characters, sentences, and paragrap
 ## **Live Tool**
 
 You can access the live tool here:
-👉 [**Word & Character Counter**](https://itxcrusher.github.io/word-character-counter/)
+👉 [**Word & Character Counter**](https://crusher-labs.github.io/word-character-counter/)
