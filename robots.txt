@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crusher-labs.github.io/word-character-counter/sitemap.xml
