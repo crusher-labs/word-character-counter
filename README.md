@@ -7,7 +7,7 @@ A simple, real-time web tool to count words, characters, sentences, and paragrap
 ## **Features**
 
 * **Real-Time Analysis:** Get instant feedback as you type.
-* **Comprehensive Stats:** Counts words, characters, sentences, and paragraphs.
+* **Detailed Stats:** Counts words, characters, sentences, and paragraphs.
 * **Minimalist Interface:** Clean, dark-mode design that's easy on the eyes.
 * **One-Click Clear:** Easily reset the text area.
 
