@@ -1,27 +1,25 @@
-# **Word & Character Counter**
+# Word & Character Counter
 
-A simple, real-time web tool to count words, characters, sentences, and paragraphs in your text.
+Count words, characters with and without spaces, sentences, paragraphs and lines on a manual typewriter: the text is the sheet in the platen under the paper bail and the numbered paper scale, the six counters are odometer wheels that roll with every keystroke, and the margin bell lights past column 72. Reading and speaking time, average and longest word, copy the counts. Nothing uploaded.
 
----
+Live: <https://crusher-labs.github.io/word-character-counter/>
 
-## **Features**
+## The world: Typewriter
 
-* **Real-Time Analysis:** Get instant feedback as you type.
-* **Detailed Stats:** Counts words, characters, sentences, and paragraphs.
-* **Minimalist Interface:** Clean, dark-mode design that's easy on the eyes.
-* **One-Click Clear:** Easily reset the text area.
+This tool is a **world page** (crusher-labs standard since 2026-09-02): the page is a committed physical object from the tool's own world, with its own CSS, fonts and mode. It does not load `crusher-ui-kit` and has no theme switcher. The brief for this world lives in the workspace atlas (`x:/crusher-labs/docs/context/tools-theme-atlas.md`); change the atlas before changing the world.
 
----
+## Privacy
 
-## **How to Use**
+This tool runs entirely in your browser. There is no server. No data is uploaded, no telemetry, no analytics. The only network requests fired are the page-load fetches for Google Fonts; your inputs and outputs never leave the tab. The "Suggest an improvement" form posts to Web3Forms only when you submit it.
 
-1. **Navigate to the URL:** Open the tool in your web browser.
-2. **Add Your Text:** Simply type or paste your text into the input field.
-3. **View the Stats:** The counters below the text area will update automatically.
+## Contract
 
----
+Validated by `tools-hub/scripts/check-static.mjs` (world-page contract: SEO block, CSP, feedback form, hub link, prose + FAQ, no kit pins). Run `npm run check:static` from `repos/tools-hub` before committing.
 
-## **Live Tool**
+## Development
 
-You can access the live tool here:
-👉 [**Word & Character Counter**](https://crusher-labs.github.io/word-character-counter/)
+Open `index.html` directly in a browser. No build, no dependencies. Verify at 1440 and 390 via Playwright `setViewportSize` before shipping.
+
+## License
+
+MIT.
